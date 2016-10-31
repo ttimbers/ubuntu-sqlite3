@@ -7,7 +7,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 
 # install wget & bunzip
-RUN apt-get install -y --force-yes wget
+RUN apt-get install -y wget
 RUN apt-get install bzip2
 
 # install SQLite3
