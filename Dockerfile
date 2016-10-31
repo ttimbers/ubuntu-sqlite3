@@ -2,8 +2,6 @@
 FROM ubuntu:latest
 
 # get OS updates
-#RUN apt-get update
-#RUN apt-get install -y apt-utils
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 
 # install wget & bunzip
